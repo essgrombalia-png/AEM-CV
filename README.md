@@ -60,3 +60,7 @@ Appen kan installeras, men sidan måste ligga på en **https://-adress**. Den fu
 3. **Android/Chrome/Edge:** tryck på *Installera appen* i sidan (eller webbläsarens meny → *Installera app*).
 
 Den installerade appen har egen lagring och egen session. Du loggar alltså in igen när du öppnar den, och data du redigerat i Safari följer inte med.
+
+
+## Egna profiler per konto
+Varje vanligt konto (alla utom admin) startar från en tom egen mall och sparar sin profil under sin egen e-postadress. Adminens innehåll och andra användares profiler visas aldrig för andra konton. Observera: profilerna sparas i webbläsarens lokala lagring på den enhet kontot används på. För profiler som följer med mellan enheter krävs en server (t.ex. Firestore med regler per användare).
